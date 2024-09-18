@@ -1,0 +1,17 @@
+<svg id="Group_27" data-name="Group 27" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Ellipse_15" data-name="Ellipse 15" fill="rgba(255,255,255,0.1)" stroke="#fff" stroke-width="1">
+    <circle cx="50" cy="50" r="50" stroke="none"/>
+    <circle cx="50" cy="50" r="49.5" fill="none"/>
+  </g>
+  <g id="Group_32" data-name="Group 32" transform="translate(25.529 25.516)">
+    <g id="play-circle_bulk" data-name="play-circle/bulk">
+      <g id="vuesax_bulk_play-circle" data-name="vuesax/bulk/play-circle">
+        <g id="play-circle">
+          <path id="Vector" d="M42.128,21.064A21.064,21.064,0,1,1,21.064,0,21.064,21.064,0,0,1,42.128,21.064Z" transform="translate(4.15 4.213)" fill="#fff" opacity="0.4"/>
+          <path id="Vector-2" data-name="Vector" d="M13.4,4.181,7.288.664a4.792,4.792,0,0,0-4.866,0A4.813,4.813,0,0,0,0,4.876v7.056A4.854,4.854,0,0,0,4.845,16.8a4.756,4.756,0,0,0,2.422-.653l6.109-3.518A4.813,4.813,0,0,0,15.8,8.415,4.7,4.7,0,0,0,13.4,4.181Z" transform="translate(18.136 17.367)" fill="#fff"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0H50.553V50.553H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30.388" height="30.388" viewBox="0 0 30.388 30.388">
+  <g id="Group_204" data-name="Group 204" transform="translate(-1049 -886)">
+    <g id="eye_bulk" data-name="eye/bulk" transform="translate(1049 886)">
+      <g id="vuesax_bulk_frame" data-name="vuesax/bulk/frame">
+        <g id="frame">
+          <path id="Vector" d="M24.373,7.242C21.449,2.646,17.169,0,12.662,0A12.259,12.259,0,0,0,6.217,1.887,16.908,16.908,0,0,0,.95,7.242a7.307,7.307,0,0,0,0,7.2c2.925,4.609,7.2,7.242,11.712,7.242A12.259,12.259,0,0,0,19.106,19.8a16.908,16.908,0,0,0,5.267-5.356A7.307,7.307,0,0,0,24.373,7.242ZM12.662,15.966a5.115,5.115,0,1,1,5.115-5.115A5.109,5.109,0,0,1,12.662,15.966Z" transform="translate(2.532 4.343)" opacity="0.4"/>
+          <path id="Vector-2" data-name="Vector" d="M3.609,0A3.615,3.615,0,1,0,7.23,3.621,3.618,3.618,0,0,0,3.609,0Z" transform="translate(11.585 11.573)"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0H30.388V30.388H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

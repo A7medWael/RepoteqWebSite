@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+  <g id="Group_198" data-name="Group 198" transform="translate(-783 -2195)">
+    <g id="Group_56" data-name="Group 56" transform="translate(45 286)">
+      <g id="arrow-circle-right_bulk" data-name="arrow-circle-right/bulk" transform="translate(738 1909)">
+        <g id="vuesax_bulk_arrow-circle-right" data-name="vuesax/bulk/arrow-circle-right">
+          <g id="arrow-circle-right">
+            <rect id="Rectangle_52" data-name="Rectangle 52" width="39.194" height="39.194" rx="19.597" transform="translate(4 4)" fill="#1d89d6"/>
+            <path id="Vector" d="M0,0H47V47H0Z" fill="none" opacity="0"/>
+            <g id="Group_60" data-name="Group 60" transform="translate(1 -2)">
+              <g id="arrow-right_twotone" data-name="arrow-right/twotone" transform="translate(11 14)">
+                <g id="vuesax_twotone_arrow-right" data-name="vuesax/twotone/arrow-right">
+                  <g id="arrow-right">
+                    <path id="Vector-2" data-name="Vector" d="M0,15.84,6.52,9.32a1.986,1.986,0,0,0,0-2.8L0,0" transform="translate(8.91 4.08)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+                    <path id="Vector-3" data-name="Vector" d="M0,0H24V24H0Z" transform="translate(24 24) rotate(180)" fill="none" opacity="0"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

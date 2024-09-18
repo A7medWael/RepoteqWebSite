@@ -1,0 +1,14 @@
+<svg id="ui" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d77b8"/>
+      <stop offset="1" stop-color="#0064ad"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_145" data-name="Path 145" d="M63.848,24.746H53.594V2.051A2.051,2.051,0,0,0,51.543,0H2.051A2.051,2.051,0,0,0,0,2.051V39.1a2.051,2.051,0,0,0,2.051,2.051H20.645V47.3a2.053,2.053,0,0,1-2.051,2.051,2.051,2.051,0,0,0,0,4.1H35a2.051,2.051,0,1,0,0-4.1A2.053,2.053,0,0,1,32.949,47.3V41.152h8.34v22.7A6.159,6.159,0,0,0,47.441,70H63.848A6.159,6.159,0,0,0,70,63.848V30.9A6.159,6.159,0,0,0,63.848,24.746ZM29.2,49.355H24.393a6.124,6.124,0,0,0,.353-2.051V41.152h4.1V47.3A6.124,6.124,0,0,0,29.2,49.355ZM4.1,37.051V4.1H49.492V24.746H47.441A6.159,6.159,0,0,0,41.289,30.9v6.152Zm61.8,26.8A2.053,2.053,0,0,1,63.848,65.9H47.441a2.053,2.053,0,0,1-2.051-2.051V30.9a2.053,2.053,0,0,1,2.051-2.051H63.848A2.053,2.053,0,0,1,65.9,30.9Z" fill="url(#linear-gradient)"/>
+  <path id="Path_146" data-name="Path 146" d="M372.254,241h-8.2A2.051,2.051,0,0,0,362,243.051v8.2a2.051,2.051,0,0,0,2.051,2.051h8.2a2.051,2.051,0,0,0,2.051-2.051v-8.2A2.051,2.051,0,0,0,372.254,241Zm-2.051,8.2h-4.1v-4.1h4.1Z" transform="translate(-312.508 -208.051)" fill="url(#linear-gradient)"/>
+  <path id="Path_147" data-name="Path 147" d="M372.254,361h-8.2a2.051,2.051,0,0,0,0,4.1h8.2a2.051,2.051,0,0,0,0-4.1Z" transform="translate(-312.508 -311.645)" fill="url(#linear-gradient)"/>
+  <path id="Path_148" data-name="Path 148" d="M62.051,73.3H95.137a2.051,2.051,0,0,0,2.051-2.051v-8.2A2.051,2.051,0,0,0,95.137,61H62.051A2.051,2.051,0,0,0,60,63.051v8.2A2.051,2.051,0,0,0,62.051,73.3ZM64.1,65.1H93.086v4.1H64.1Z" transform="translate(-51.797 -52.66)" opacity="0.4" fill="url(#linear-gradient)"/>
+  <path id="Path_149" data-name="Path 149" d="M86.8,181H62.051a2.051,2.051,0,1,0,0,4.1H86.8a2.051,2.051,0,0,0,0-4.1Z" transform="translate(-51.797 -156.254)" opacity="0.4" fill="url(#linear-gradient)"/>
+  <circle id="Ellipse_30" data-name="Ellipse 30" cx="2" cy="2" r="2" transform="translate(54 58)" fill="url(#linear-gradient)"/>
+</svg>

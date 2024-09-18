@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_128" data-name="Group 128" transform="translate(-1235 -5023)">
+    <g id="location_twotone" data-name="location/twotone" transform="translate(1235 5023)">
+      <g id="location">
+        <g id="location-2" data-name="location">
+          <path id="Vector" d="M13,6.5A6.5,6.5,0,1,1,6.5,0,6.5,6.5,0,0,1,13,6.5Z" transform="translate(18.5 14.979)" fill="none" stroke="#0064ad" stroke-width="3" opacity="0.4"/>
+          <path id="Vector-2" data-name="Vector" d="M.506,13.521C4.61-4.521,31.339-4.5,35.422,13.542c2.4,10.583-4.188,19.542-9.958,25.083a10.82,10.82,0,0,1-15.021,0C4.693,33.083-1.89,24.1.506,13.521Z" transform="translate(7.036 4.167)" fill="none" stroke="#0064ad" stroke-width="3"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0H50V50H0Z" transform="translate(50 50) rotate(180)" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

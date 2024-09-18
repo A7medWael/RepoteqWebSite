@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70.275" height="70" viewBox="0 0 70.275 70">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1d77b8"/>
+      <stop offset="1" stop-color="#0064ad"/>
+    </linearGradient>
+  </defs>
+  <g id="web-development" transform="translate(0 -1)">
+    <path id="Path_150" data-name="Path 150" d="M64.1,1H6.176A6.183,6.183,0,0,0,0,7.176V64.824A6.183,6.183,0,0,0,6.176,71H64.1a6.183,6.183,0,0,0,6.176-6.176V7.176A6.183,6.183,0,0,0,64.1,1ZM6.176,5.118H64.1a2.061,2.061,0,0,1,2.059,2.059V17.471H4.118V7.176A2.061,2.061,0,0,1,6.176,5.118ZM64.1,66.882H6.176a2.061,2.061,0,0,1-2.059-2.059V21.588H66.157V64.824A2.061,2.061,0,0,1,64.1,66.882Z" fill="url(#linear-gradient)"/>
+    <path id="Path_151" data-name="Path 151" d="M211.219,196.163a2.059,2.059,0,0,0-2.7,1.081l-12.353,28.824a2.059,2.059,0,0,0,3.785,1.622L212.3,198.867A2.059,2.059,0,0,0,211.219,196.163Z" transform="translate(-169.095 -168.232)" opacity="0.4" fill="url(#linear-gradient)"/>
+    <path id="Path_152" data-name="Path 152" d="M89.964,241.772a2.059,2.059,0,0,0-2.894-.321l-10.294,8.235a2.06,2.06,0,0,0,0,3.215l10.294,8.235a2.059,2.059,0,1,0,2.572-3.215l-8.284-6.628,8.284-6.628A2.059,2.059,0,0,0,89.964,241.772Z" transform="translate(-65.572 -207.058)" fill="url(#linear-gradient)"/>
+    <path id="Path_153" data-name="Path 153" d="M344.638,249.685l-10.294-8.235a2.059,2.059,0,1,0-2.572,3.215l8.284,6.628-8.284,6.628a2.059,2.059,0,1,0,2.572,3.215l10.294-8.235A2.059,2.059,0,0,0,344.638,249.685Z" transform="translate(-285.568 -207.058)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_31" data-name="Ellipse 31" cx="2" cy="2" r="2" transform="translate(8 9)" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_32" data-name="Ellipse 32" cx="2.5" cy="2" rx="2.5" ry="2" transform="translate(16 9)" fill="url(#linear-gradient)"/>
+    <circle id="Ellipse_33" data-name="Ellipse 33" cx="2" cy="2" r="2" transform="translate(25 9)" fill="url(#linear-gradient)"/>
+    <path id="Path_154" data-name="Path 154" d="M333.059,65.118h12.353a2.059,2.059,0,1,0,0-4.118H333.059a2.059,2.059,0,1,0,0,4.118Z" transform="translate(-285.569 -51.765)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

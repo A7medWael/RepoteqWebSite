@@ -1,0 +1,39 @@
+﻿@model HeaderView
+
+<header >
+   
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12">
+                <div class="owl-carousel owl-theme owl-header">
+    <div class="item">
+        <div class="contain">
+            <h1>
+               @Model.Title
+            </h1>
+
+            <p>
+            @Model.SubTitle
+            </p>
+
+            <div class="buttons-contain">
+                <a href="#" class="custom-btn">
+                <img src="@Model.IconUrl" loading="lazy" alt="" />
+
+                    <span>
+                       @Model.ButtonName
+                    </span>
+                </a>
+
+                <a href="#" class="video-icon">
+                <img src="assets/images/icons/video.svg"  loading="lazy" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </header>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Group_160" data-name="Group 160" transform="translate(-391 -4696)">
+    <g id="people_twotone" data-name="people/twotone" transform="translate(391 4696)">
+      <g id="vuesax_twotone_people" data-name="vuesax/twotone/people">
+        <g id="people">
+          <path id="Vector" d="M5.563,10.75a1.261,1.261,0,0,0-.4,0,5.385,5.385,0,1,1,.4,0Z" transform="translate(31.933 4.167)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+          <path id="Vector-2" data-name="Vector" d="M.063,10.292a11.739,11.739,0,0,0,8.208-1.5c2.938-1.958,2.938-5.167,0-7.125A11.813,11.813,0,0,0,0,.188" transform="translate(35.287 19.791)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+          <path id="Vector-3" data-name="Vector" d="M5.188,10.75a1.261,1.261,0,0,1,.4,0,5.385,5.385,0,1,0-.4,0Z" transform="translate(7.245 4.167)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+          <path id="Vector-4" data-name="Vector" d="M10.412,10.292A11.739,11.739,0,0,1,2.2,8.792C-.734,6.834-.734,3.625,2.2,1.667A11.813,11.813,0,0,1,10.474.188" transform="translate(4.167 19.791)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" opacity="0.4"/>
+          <g id="Group" transform="translate(16.734 19.729)">
+            <path id="Vector-5" data-name="Vector" d="M5.563,10.75a1.261,1.261,0,0,0-.4,0,5.385,5.385,0,1,1,.4,0Z" transform="translate(2.703)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+            <path id="Vector-6" data-name="Vector" d="M2.2,1.656C-.734,3.615-.734,6.823,2.2,8.781a11.828,11.828,0,0,0,12.125,0c2.938-1.958,2.938-5.167,0-7.125A11.924,11.924,0,0,0,2.2,1.656Z" transform="translate(0 15.656)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+          </g>
+          <path id="Vector-7" data-name="Vector" d="M0,0H50V50H0Z" fill="none" opacity="0"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
