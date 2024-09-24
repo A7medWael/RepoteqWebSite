@@ -1,0 +1,76 @@
+﻿@model SectionServicesView
+<div class="container">
+    <div class="heading">
+        <h1>
+            @Model.MainTitle1
+
+            <span>
+                ريبوتِك
+            </span>
+        </h1>
+
+        <p>
+            @Model.Description1
+        </p>
+    </div>
+
+    <div class="service-contain">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
+                <div class="box top-right">
+                    <div class="image-content">
+                        <img src="@Model.IconUrl1" loading="lazy" alt="">
+                    </div>
+
+                    <div class="contain">
+                        <h2>
+                            @Model.ContentSection1
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
+                <div class="box flex-reverse">
+                    <div class="image-content">
+                        <img src="@Model.IconUrl2" loading="lazy" alt="">
+                    </div>
+
+                    <div class="contain">
+                        <h2>
+                            @Model.ContentSection2
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
+                <div class="box">
+                    <div class="image-content">
+                        <img src="@Model.IconUrl3" loading="lazy" alt="">
+                    </div>
+
+                    <div class="contain">
+                        <h2>
+                            @Model.ContentSection3
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
+                <div class="box flex-reverse">
+                    <div class="image-content">
+                        <img src="@Model.IconUrl4" loading="lazy" alt="">
+                    </div>
+
+                    <div class="contain">
+                        <h2>
+                            @Model.ContentSection4
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

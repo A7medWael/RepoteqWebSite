@@ -3,1252 +3,1132 @@
 @{
 	Layout = "_Layout";
 }
- <main>
+ 
+
+<main>
      
                <vc:header />
             
 
       <section class="services">
-        <div class="container">
-          <div class="heading">
-            <h1>
-              خدمات 
-
-              <span>
-                ريبوتِك
-              </span>
-            </h1>
-
-            <p>
-              مجموعة من خدمات ريبوتك المتكاملة تلبي طلباتكم
-            </p>
-          </div>
-
-          <div class="service-contain">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
-                <div class="box top-right">
-                  <div class="image-content">
-                    <img src="assets/images/services/developer.svg" loading="lazy" alt="">
-                  </div>
-
-                  <div class="contain">
-                    <h2>
-                      تطوير المواقع والأنظمة الإلكترونية
-                    </h2>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
-                <div class="box flex-reverse">
-                  <div class="image-content">
-                    <img src="assets/images/services/cellphone.svg" loading="lazy" alt="">
-                  </div>
-
-                  <div class="contain">
-                    <h2>
-                      تطوير تطبيقات الهواتف الذكية
-                    </h2>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
-                <div class="box">
-                  <div class="image-content">
-                    <img src="assets/images/services/security.svg" loading="lazy" alt="">
-                  </div>
-
-                  <div class="contain">
-                    <h2>
-                      دعم وصيانة تطبيقات الجوال على المنصات
-                    </h2>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6 col-md-6 col-12 mb-4 box-contain">
-                <div class="box flex-reverse">
-                  <div class="image-content">
-                    <img src="assets/images/services/teleworking.svg" loading="lazy" alt="">
-                  </div>
-
-                  <div class="contain">
-                    <h2>
-                      خدمات التوظيف عن بعد لكوادر ممتازة
-                    </h2>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+          <vc:section-services /> 
+     
       </section>
 
       <section class="projects general-section">
-        <div class="container">
-          <div class="heading">
-            <h1>
-              منتجات 
-              <span>
-                ريبوتِك
-              </span>
-            </h1>
-
-            <p>
-              مجموعة من أفضل منتجات ريبوتك تعمل بطرق سهلة وبسيطة
-            </p>
-          </div>
-
+        
+         <vc:container-mains />
+          
           <div class="row">
-            <div class="col-12">
-              <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link active" id="nav-1-tab" data-toggle="tab" href="#nav-1" role="tab" aria-controls="nav-1" aria-selected="true">
-                    نظام نقاط البيع
-                  </a>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="nav-2-tab" data-toggle="tab" href="#nav-2" role="tab" aria-controls="nav-2" aria-selected="false">
-                    ريبو ليرن
-                  </a>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="nav-3-tab" data-toggle="tab" href="#nav-3" role="tab" aria-controls="nav-3" aria-selected="false">
-                    تطبيق توصيل مياة
-                  </a>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="nav-4-tab" data-toggle="tab" href="#nav-4" role="tab" aria-controls="nav-4" aria-selected="false">
-                    نظام إدارة الشبهات
-                  </a>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="nav-5-tab" data-toggle="tab" href="#nav-5" role="tab" aria-controls="nav-5" aria-selected="false">
-                    ريبو شوب
-                  </a>
-                </li>
-
-                <li class="nav-item" role="presentation">
-                  <a class="nav-link" id="nav-6-tab" data-toggle="tab" href="#nav-6" role="tab" aria-controls="nav-6" aria-selected="false">
-                    ريبو ميد
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <vc:container />
 
             <div class="col-12">
-              <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
-                  <div class="owl-carousel owl-theme owl-projects">
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
+                        <div class="owl-carousel owl-theme owl-projects">
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
 
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
                     </div>
 
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+                    <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
+                        <div class="owl-carousel owl-theme owl-projects">
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
 
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
                     </div>
 
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+                    <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
+                        <div class="owl-carousel owl-theme owl-projects">
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
 
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
                     </div>
 
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+                    <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
+                        <div class="owl-carousel owl-theme owl-projects">
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
 
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
                     </div>
-                  </div>
+
+                    <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
+                        <div class="owl-carousel owl-theme owl-projects">
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
+                        <div class="owl-carousel owl-theme owl-projects">
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="project-box">
+                                    <div class="image-content">
+                                        <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
+
+                                        <div class="project-logo">
+                                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
+                                        </div>
+                                    </div>
+
+                                    <div class="project-contain">
+                                        <h2>
+                                            تطبيق توصيل المياة
+                                        </h2>
+
+                                        <ul class="technology">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#">
+                                                    <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                                                </a>
+                                            </li>
+                                        </ul>
+
+                                        <p>
+                                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
+                                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
+                                        </p>
+
+                                        <a href="single-project.html" class="custom-btn">
+                                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                                            <span>
+                                                تفاصيل المنتج
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
-                  <div class="owl-carousel owl-theme owl-projects">
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade" id="nav-3" role="tabpanel" aria-labelledby="nav-3-tab">
-                  <div class="owl-carousel owl-theme owl-projects">
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade" id="nav-4" role="tabpanel" aria-labelledby="nav-4-tab">
-                  <div class="owl-carousel owl-theme owl-projects">
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade" id="nav-5" role="tabpanel" aria-labelledby="nav-5-tab">
-                  <div class="owl-carousel owl-theme owl-projects">
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tab-pane fade" id="nav-6" role="tabpanel" aria-labelledby="nav-6-tab">
-                  <div class="owl-carousel owl-theme owl-projects">
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="project-box">
-                        <div class="image-content">
-                          <img src="assets/images/project/project.webp" class="project-img" loading="lazy" alt="" />
-
-                          <div class="project-logo">
-                            <img src="assets/images/project/project_logo.webp" loading="lazy" alt="" />
-                          </div>
-                        </div>
-
-                        <div class="project-contain">
-                          <h2>
-                            تطبيق توصيل المياة
-                          </h2>
-
-                          <ul class="technology">
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/android.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                            
-                            <li>
-                              <a href="#">
-                                <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
-                              </a>
-                            </li>
-                          </ul>
-
-                          <p>
-                            نظام إلكتروني يعمل من خلال شبكة الإنترنت وتطبيق للهواتف الذكية لجميع خدمات
-                            ... توصيل المياه الشرب ومياه الصرف ومياه الصحية
-                          </p>
-
-                          <a href="single-project.html" class="custom-btn">
-                            <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
-              
-                            <span>
-                              تفاصيل المنتج
-                            </span>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           </div>
           </div>
         </div>
       </section>
@@ -1259,7 +1139,7 @@
             <div class="image-content">
               <img src="assets/images/wait/wait_logo.svg" loading="lazy" alt="" />
             </div>
-
+            
             <div class="contain">
               <div class="data">
                 <h1>

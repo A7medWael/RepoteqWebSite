@@ -1,0 +1,52 @@
+﻿
+@model ProjectsView
+@{
+    int index = 1;
+}
+@foreach(var item in Model.ProjContains)
+{
+    <div class="item">
+        <div class="project-box">
+            <div class="image-content">
+                <img src="@item.ImgProjUrl" class="project-img" loading="lazy" alt="" />
+
+                <div class="project-logo">
+                    <img src="@item.LogoProjUrl" loading="lazy" alt="" />
+                </div>
+            </div>
+
+            <div class="project-contain">
+                <h2>
+                    @item.ProjectName
+                </h2>
+
+                <ul class="technology">
+                    <li>
+                        <a href="#">
+                            <img src="assets/images/project/android.svg" loading="lazy" alt="" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="assets/images/project/apple.svg" loading="lazy" alt="" />
+                        </a>
+                    </li>
+                </ul>
+
+                <p>
+                  @item.DescriptionProj
+                </p>
+
+                <a href="single-project.html" class="custom-btn">
+                    <img src="assets/images/icons/arrow.svg" loading="lazy" alt="" />
+
+                    <span>
+                        تفاصيل المنتج
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+}
+

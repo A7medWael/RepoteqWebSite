@@ -1,0 +1,24 @@
+﻿
+@model ContainerView
+@{
+    int index = 1;
+}
+
+<div class="col-12">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        
+        @foreach(var item in Model.containerLinks)
+        {
+           
+            <li class="nav-item" role="presentation">
+                <a class="nav-link @(index == 1 ? "active" : "")" id="nav-(@index)-tab" data-toggle="tab" href="@item.Url" role="tab" aria-controls="nav-(@index)" aria-selected=@(@index==1 ? "true" :"false")>
+                    @item.Name
+                </a>
+            </li>
+            index++;
+        }
+        
+
+       
+    </ul>
+</div>

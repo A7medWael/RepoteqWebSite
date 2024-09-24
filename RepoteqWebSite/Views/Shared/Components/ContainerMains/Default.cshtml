@@ -1,0 +1,17 @@
+﻿@model ContainerMainsView
+
+<div class="heading">
+    <h1>
+       @*  @{
+            var AllText = Model.ContainerTitle;
+            @AllText[0]
+
+            <span>@AllText[2]</span>
+        } *@
+        @Model.ContainerTitle
+    </h1>
+
+    <p>
+        @Model.ContainerDescription
+    </p>
+</div>
